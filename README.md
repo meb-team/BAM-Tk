@@ -26,7 +26,7 @@ Please cite these tools if you use BAM-Tk in your work.
 Once the third-party dependencies have been installed, BAM-Tk can be installed using pip:
 
 ```
-python -m pip install git+https://github.com/meb-team/BAMTk.git
+python -m pip install git+https://github.com/meb-team/BAM-Tk.git
 ```
 
 
