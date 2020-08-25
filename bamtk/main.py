@@ -56,8 +56,7 @@ class OptionsParser():
         counts = {}
         counts_base = {}
 
-        p = re.compile(r'(.+).f[n]*a[sta]*\.fai')
-        reference = p.findall(os.path.basename(options.faidx))[0]
+        reference = remove_extension(options.faidx,options.faidx_extension)
 
         self.logger.info('Get features and initialise matrix')
         with open(options.faidx) as f:
