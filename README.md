@@ -32,7 +32,7 @@ python -m pip install git+https://github.com/meb-team/BAM-Tk.git
 
 ### Need help ? 
 
-1. Access the help menu (`gtdbtk -h`)
+1. Access the help menu (`bamtk -h`)
 2. Run an example (`bamtk mm_features tests/data/toy.fa.fai tests/bamlist.txt tests/results`)
 
 ## Bugs
